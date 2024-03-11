@@ -20,9 +20,9 @@ Simply use the Julia package manager (for more information, see [guide](https://
 
 Or you can do the same with julia REPL mode:
 ```julia
-julia> using Pkg
+using Pkg
 
-julia> Pkg.Registry.add(RegistrySpec(url = "https://github.com/bhftbootcamp/Orange.git"))
+Pkg.Registry.add(RegistrySpec(url = "https://github.com/bhftbootcamp/Orange.git"))
 ```
 
 Great! If you did everything correctly, then the registers should be successfully added to your environment.
@@ -41,7 +41,7 @@ For example, let's install the [NumExpr](https://github.com/bhftbootcamp/NumExpr
 ## Duplicate package names
 
 If in your environment there are several registers containing packages with identical names, then you will have to select the one you need as follows:
-- Select the desired package interactively using the keyboard arrows (REPL mode):
+Select the desired package interactively using the keyboard arrows (REPL mode):
 ```julia
 pkg> add Doppelganger
 There are multiple registered `Doppelganger` packages, choose one:
@@ -49,16 +49,18 @@ There are multiple registered `Doppelganger` packages, choose one:
  > Registry: Orange - Repo: https://... - UUID: d0ee2183-...
 ```
 
-- Specify the required `uuid` of the package:
-```julia
-julia> using Pkg
-
-julia> Pkg.add(name = "NumExpr", uuid = "005f7402-6e25-4d9a-960d-a0ddd50a2fba")
-```
-- Or use the Julia package manager:
+Or use the Julia package manager:
 ```julia
 ] add NumExpr=005f7402-6e25-4d9a-960d-a0ddd50a2fba
 ```
+
+Or specify the required `uuid` of the package:
+```julia
+using Pkg
+
+Pkg.add(name = "NumExpr", uuid = "005f7402-6e25-4d9a-960d-a0ddd50a2fba")
+```
+
 
 ## Troubleshooting
 
