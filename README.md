@@ -10,16 +10,19 @@ Local registries for the #bhftbootcamp community.
 
 ## Installation
 
-There are several ways to set registers. The simplest way is to use an https request in REPL mode:
+You can set registers in your julia environment in the following ways.
 
-```julia
-julia> Pkg.Registry.add(RegistrySpec(url = "https://github.com/bhftbootcamp/Orange.git"))
+Simply use the Julia package manager (for more information, see [guide](https://pkgdocs.julialang.org/v1/getting-started/#Basic-Usage)):
+
+```julia-repl
+] registry add https://github.com/bhftbootcamp/Orange.git
 ```
 
-Or simply use the Julia package manager (for more information, see [guide](https://pkgdocs.julialang.org/v1/getting-started/#Basic-Usage)):
-
+Or you can do the same with julia REPL mode:
 ```julia
-] registry add https://github.com/bhftbootcamp/Orange.git
+julia> using Pkg
+
+julia> Pkg.Registry.add(RegistrySpec(url = "https://github.com/bhftbootcamp/Orange.git"))
 ```
 
 Great! If you did everything correctly, then the registers should be successfully added to your environment.
