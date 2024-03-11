@@ -22,14 +22,18 @@ Or simply use the Julia package manager (for more information, see [guide](https
 ] registry add https://github.com/bhftbootcamp/Orange.git
 ```
 
-Now packages from [#bhftbootcamp](https://github.com/bhftbootcamp) can be installed as easily as any other packages from [General](https://github.com/JuliaRegistries/General).
+Great! If you did everything correctly, then the registers should be successfully added to your environment.
+However, if you have any difficulties, please take a look at section [troubleshooting](#troubleshooting) or create an [issue](https://github.com/bhftbootcamp/Orange/issues), which may help us simplify the installation or registry!
 
-### Example
+## Usage
 
+Once you have installed Orange registers in your Julia environment, you can install any package from [#bhftbootcamp](https://github.com/bhftbootcamp) just as easily as any other package from [General](https://github.com/JuliaRegistries/General).
 For example, let's install the [NumExpr](https://github.com/bhftbootcamp/NumExpr.jl) package:
 ```julia
-julia> add NumExpr
+] add NumExpr
 ```
+
+## Duplicate package names
 
 If in your environment there are several registers containing packages with identical names, then you will have to select the one you need as follows:
 - Select the desired package interactively using the keyboard arrows (REPL mode):
