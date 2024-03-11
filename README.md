@@ -22,7 +22,7 @@ Or you can do the same with julia REPL mode:
 ```julia
 using Pkg
 
-Pkg.Registry.add(RegistrySpec(url = "https://github.com/bhftbootcamp/Orange.git"))
+Pkg.Registry.add(RegistrySpec(; url = "https://github.com/bhftbootcamp/Orange.git"))
 ```
 
 Great! If you did everything correctly, then the registers should be successfully added to your environment.
@@ -59,7 +59,7 @@ Or specify the required `uuid` of the package:
 ```julia
 using Pkg
 
-Pkg.add(name = "NumExpr", uuid = "005f7402-6e25-4d9a-960d-a0ddd50a2fba")
+Pkg.add(; name = "NumExpr", uuid = "005f7402-6e25-4d9a-960d-a0ddd50a2fba")
 ```
 
 
