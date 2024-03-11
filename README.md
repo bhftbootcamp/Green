@@ -40,7 +40,8 @@ For example, let's install the [NumExpr](https://github.com/bhftbootcamp/NumExpr
 
 ## Duplicate package names
 
-If in your environment there are several registers containing packages with identical names, then you will have to select the one you need as follows:
+If in your environment there are several registers containing packages with identical names, then you will have to select the one you need as follows.
+
 Select the desired package interactively using the keyboard arrows (REPL mode):
 ```julia
 pkg> add Doppelganger
