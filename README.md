@@ -71,4 +71,4 @@ or (Windows):
     set JULIA_PKG_USE_CLI_GIT=true
 ```
 It will force Julia to use your system git instead of default `libgit2` (Require Julia v1.7).
-See [thread](https://discourse.julialang.org/t/julia-repl-is-ignoring-my-ssh-config-file/65287/6) for more information.
+See this [thread](https://discourse.julialang.org/t/julia-repl-is-ignoring-my-ssh-config-file/65287/6) for more information.
