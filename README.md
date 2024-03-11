@@ -1,4 +1,4 @@
-# Orange
+# Orange 🍊
 
 [![Registry](https://img.shields.io/badge/registry-Orange-orange)](https://github.com/bhftbootcamp/Orange)
 
