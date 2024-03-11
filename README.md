@@ -26,11 +26,13 @@ julia> Pkg.Registry.add(RegistrySpec(url = "https://github.com/bhftbootcamp/Oran
 ```
 
 Great! If you did everything correctly, then the registers should be successfully added to your environment.
+
 However, if you have any difficulties, please take a look at section [troubleshooting](#troubleshooting) or create an [issue](https://github.com/bhftbootcamp/Orange/issues), which may help us simplify the installation or registry!
 
 ## Usage
 
 Once you have installed Orange registers in your Julia environment, you can install any package from [#bhftbootcamp](https://github.com/bhftbootcamp) just as easily as any other package from [General](https://github.com/JuliaRegistries/General).
+
 For example, let's install the [NumExpr](https://github.com/bhftbootcamp/NumExpr.jl) package:
 ```julia
 ] add NumExpr
@@ -53,7 +55,7 @@ julia> using Pkg
 
 julia> Pkg.add(name = "NumExpr", uuid = "005f7402-6e25-4d9a-960d-a0ddd50a2fba")
 ```
-or use the Julia package manager:
+- Or use the Julia package manager:
 ```julia
 ] add NumExpr=005f7402-6e25-4d9a-960d-a0ddd50a2fba
 ```
