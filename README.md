@@ -62,7 +62,7 @@ dev> add NumExpr=005f7402-6e25-4d9a-960d-a0ddd50a2fba
 
 ## Troubleshooting
 
-If you are having trouble adding registers to your Julia environment due to `ssh-agent` or other limitations of the standard `libgit2`, you can set the following value to your system environment (MacOs/Linux):
+If you are having trouble adding registers to your Julia environment due to `ssh-agent` or other limitations of the standard `libgit2`, you can set the following value to your system environment (MacOS/Linux):
 ```shell
     export JULIA_PKG_USE_CLI_GIT=true
 ```
