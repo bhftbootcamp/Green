@@ -2,7 +2,7 @@
 
 [![Registry](https://img.shields.io/badge/registry-Orange-orange)](https://github.com/bhftbootcamp/Orange)
 
-Our registry is a tasty alternative to the usual General Registry. We serve up a variety of flavorful packages that add some zest to your development experience. Whether you're seeking extra functionality or unique tools, we've got something juicy for everyone!
+Our registry is a tasty addition to the usual General Registry. We serve up a variety of flavorful packages that add some zest to your development experience. Whether you're seeking extra functionality or unique tools, we've got something juicy for everyone!
 
 > [!NOTE]  
 > These registers are used to organize work with packages that are developed and used within the [#bhftbootcamp](https://github.com/bhftbootcamp) community.
