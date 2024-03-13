@@ -3,3 +3,4 @@ uuid = "be4a8dd9-3716-4d7b-a48c-a5ed1a4a830b"
 repo = "https://github.com/bhftbootcamp/Green"
 
 [packages]
+005f7402-6e25-4d9a-960d-a0ddd50a2fba = { name = "NumExpr", path = "N/NumExpr" }
