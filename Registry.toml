@@ -5,6 +5,6 @@ repo = "https://github.com/bhftbootcamp/Green"
 [packages]
 005f7402-6e25-4d9a-960d-a0ddd50a2fba = { name = "NumExpr", path = "N/NumExpr" }
 4b1000a4-b9b7-4319-98e4-c9b821a8e3b0 = { name = "TemplateTools", path = "T/TemplateTools" }
-5e3d4798-c815-4641-85e1-deed530626d3 = { name = "CryptoAPIs", path = "C/CryptoAPIs" }
+5e3d4798-c815-4641-85e1-deed530626d3 = { name = "CryptoExchangeAPIs", path = "C/CryptoExchangeAPIs" }
 6414a262-d954-4101-8ae8-e45873c55136 = { name = "CcyConv", path = "C/CcyConv" }
 de8a86c3-a64b-47c8-8ca2-357579be7910 = { name = "AgTables", path = "A/AgTables" }
