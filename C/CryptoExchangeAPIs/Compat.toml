@@ -1,8 +1,13 @@
 [0]
 EasyCurl = "2"
 JSONWebTokens = "1.1.1-1"
-NanoDates = "0.3"
 Nettle = "1"
 Serde = "3"
 TimeZones = "1.13.0-1"
 julia = "1.8.0-1"
+
+["0-0.29.0"]
+NanoDates = "0.3"
+
+["0.29.1-0"]
+NanoDates = "1"
