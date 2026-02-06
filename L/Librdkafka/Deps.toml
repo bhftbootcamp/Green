@@ -1,7 +1,0 @@
-[0]
-Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
-CxxWrap = "1f15a43c-97ca-5a2a-ae31-89f07a497df4"
-CyrusSASL_jll = "6422fedd-75a7-50c2-a7c3-a11dad25a896"
-Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-librdkafka_jll = "7943bfb0-7437-5acd-a008-22777931c7aa"

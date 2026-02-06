@@ -5,7 +5,6 @@ repo = "https://github.com/bhftbootcamp/Green"
 [packages]
 005f7402-6e25-4d9a-960d-a0ddd50a2fba = { name = "NumExpr", path = "N/NumExpr" }
 27ae6650-29b9-4c69-9010-441cd8c8f06e = { name = "OhMyCH", path = "O/OhMyCH" }
-43e2f499-f4c7-585f-8317-cf0960ea7a2a = { name = "Librdkafka", path = "L/Librdkafka" }
 4b1000a4-b9b7-4319-98e4-c9b821a8e3b0 = { name = "TemplateTools", path = "T/TemplateTools" }
 53d8605c-dcf1-482a-b927-58e959abfe3c = { name = "Jinja2Cpp", path = "J/Jinja2Cpp" }
 5e3d4798-c815-4641-85e1-deed530626d3 = { name = "CryptoExchangeAPIs", path = "C/CryptoExchangeAPIs" }
